@@ -1,5 +1,5 @@
 <script>
-	import SpaceshipCursor 	from "$lib/spaceshipCursor.svelte";
+	import SpaceshipCursor 	from "../components/spaceshipCursor.svelte";
     import Background from "../components/background.svelte";
 
     import { deviceType, screenSize, scrollPos } from "$lib/writables.js";
